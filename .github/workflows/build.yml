@@ -19,4 +19,4 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
           repository: varokas/docker-python-example
-          tag_with_ref: true
+          tag_with_sha: true
